@@ -1,7 +1,7 @@
 <!doctype html><html lang="en">
  <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-  <title>Technical Specifications for IWA Digital Measurement, Reporting and Verification</title>
+  <title>DRAFT Technical Specifications for IWA Digital Measurement, Reporting and Verification</title>
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 <style data-fill-with="stylesheet">/******************************************************************************
  *                   Style sheet for the W3C specifications                   *
@@ -1487,8 +1487,9 @@ Possible extra rowspan handling
 		}
 	}
 </style>
-  <meta content="Bikeshed version 74068a90b, updated Wed Mar 22 17:34:51 2023 -0700" name="generator">
+  <meta content="Bikeshed version 739efad8e, updated Thu Mar 23 07:02:40 2023 -0700" name="generator">
   <link href="https://github.com/InterWorkAlliance/TTF/dmrv/spec" rel="canonical">
+  <meta content="66a225abc3aae984b62941ef8bd6a4938fac9160" name="document-revision">
 <style>/* style-autolinks */
 .css.css, .property.property, .descriptor.descriptor {
     color: var(--a-normal-text);
@@ -2064,13 +2065,14 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
  <body class="h-entry">
   <div class="head">
    <p data-fill-with="logo"></p>
-   <h1 class="p-name no-ref" id="title">Technical Specifications for IWA Digital Measurement, Reporting and Verification</h1>
+   <h1 class="p-name no-ref" id="title">DRAFT Technical Specifications for IWA Digital Measurement, Reporting and Verification</h1>
    <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Living Document, <time class="dt-updated" datetime="2023-03-23">23 March 2023</time></span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
      <dd><a class="u-url" href="https://github.com/InterWorkAlliance/TTF/dmrv/spec">https://github.com/InterWorkAlliance/TTF/dmrv/spec</a>
      <dt>Issue Tracking:
+     <dd><a href="https://github.com/InterWorkAlliance/TTF/issues/">GitHub</a>
      <dd><a href="#issues-index">Inline In Spec</a>
      <dt class="editor">Editors:
      <dd class="editor p-author h-card vcard"><a class="p-name fn u-url url" href="https://microsoft.com">Marley Gray (Microsoft)</a> <a class="u-email email" href="mailto:marleyg@microsoft.com">marleyg@microsoft.com</a>
@@ -3308,9 +3310,9 @@ each step can generate its own artifact like a Project Design Document.</p>
                   <h3 class="heading settled" data-level="3.23" id="dt-audit-schedule"><span class="secno">3.23. </span><span class="content">Data Type: <dfn class="idl-code" data-dfn-type="enum" data-export id="enumdef-auditschedule"><code>AuditSchedule</code><a class="self-link" href="#enumdef-auditschedule"></a></dfn></span><a class="self-link" href="#dt-audit-schedule"></a></h3>
                   <p>Audit schedule options: INCOMPLETE</p>
                   <dl>
-                   <dt data-md><dfn class="idl-code" data-dfn-for="AuditSchedule" data-dfn-type="enum-value" data-export id="dom-auditschedule-anual"><code>ANUAL</code><a class="self-link" href="#dom-auditschedule-anual"></a></dfn>
+                   <dt data-md><dfn class="idl-code" data-dfn-for="AuditSchedule" data-dfn-type="enum-value" data-export id="dom-auditschedule-annual"><code>ANNUAL</code><a class="self-link" href="#dom-auditschedule-annual"></a></dfn>
                    <dd data-md>
-                    <p>for anual audits</p>
+                    <p>for annual audits</p>
                   </dl>
                   <h3 class="heading settled" data-level="3.24" id="dt-un-sdgs"><span class="secno">3.24. </span><span class="content">Data Type: <dfn class="idl-code" data-dfn-type="enum" data-export id="enumdef-co-benefit"><code>Co-Benefit</code><a class="self-link" href="#enumdef-co-benefit"></a></dfn></span><a class="self-link" href="#dt-un-sdgs"></a></h3>
                   <p>Co-benefits currently map to the UN SDGs:</p>
@@ -3840,7 +3842,8 @@ each step can generate its own artifact like a Project Design Document.</p>
                      <p>Each PfId MUST be encoded as a JSON String, see <a href="#dt-string-json">§ 3.36.1 JSON Data Representation</a> for details.</p>
                      <p>Example JSON string value:</p>
                      <div class="example" id="example-3ff44a83">
-<pre class="language-json highlight"><c- u>"f4b1225a-bd44-4c8e-861d-079e4e1dfd69"</c-></pre>
+<pre class="language-json highlight"><c- u>"f4b1225a-bd44-4c8e-861d-079e4e1dfd69"</c->
+</pre>
                      </div>
                      <h3 class="heading settled" data-level="3.38" id="dt-iso3166cc"><span class="secno">3.38. </span><span class="content">Data Type: <dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport id="iso3166cc">ISO3166CC</dfn></span><a class="self-link" href="#dt-iso3166cc"></a></h3>
                      <p>An ISO 3166-2 alpha-2 country code.</p>
@@ -4006,7 +4009,7 @@ each step can generate its own artifact like a Project Design Document.</p>
    <li><a href="#dom-projecttype-afforestation_reforestation">AFFORESTATION_REFORESTATION</a><span>, in § 3.26</span>
    <li><a href="#dom-projectscope-agriculture">AGRICULTURE</a><span>, in § 3.25</span>
    <li><a href="#dom-projecttype-aluminum_smelters_emission_reductions">ALUMINUM_SMELTERS_EMISSION_REDUCTIONS</a><span>, in § 3.26</span>
-   <li><a href="#dom-auditschedule-anual">ANUAL</a><span>, in § 3.23</span>
+   <li><a href="#dom-auditschedule-annual">ANNUAL</a><span>, in § 3.23</span>
    <li><a href="#dom-month-april">April</a><span>, in § 3.22</span>
    <li><a href="#element-attrdef-carbonfootprint-arbid">arbId</a><span>, in § 3.3.2</span>
    <li><a href="#enumdef-auditschedule">AuditSchedule</a><span>, in § 3.23</span>
